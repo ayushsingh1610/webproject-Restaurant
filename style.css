@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 16px;
+    background: #61122f;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar{
+    background-color: #f6b319;
+    height: 150px;
+    position: relative;
+}
+
+.logo{
+    background-image: url("img/logo.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+}
+.nav-item{
+    float: left;
+}
+.nav-link{
+    float: left;
+    list-style-type: none;
+}
+li > a {
+    position: relative;
+    right: 10px;
+    right: 3px;
+    padding: 8px;
+    margin: 2px;
+}
